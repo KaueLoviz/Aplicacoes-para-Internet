@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #ccc;
+    height: 90px;
+    line-height: 90px;
+    padding-left: 30px;
+}
+
+#menu, aside{
+    width: 20%;
+}
+
+#menu{
+    background-color: #ff0;
+}
+
+aside{
+    background-color: rgb(129, 246, 135);
+}
+
+#conteudo{
+    width: 60%;
+    background-color: rgb(151, 151, 151);
+}
+
+#menu, aside,#conteudo{
+    float: left;
+}
+
+footer{
+    background-color: aqua;
+    clear: left;
+}
+
+main{
+    width: 100%;
+    margin:auto;
+}
