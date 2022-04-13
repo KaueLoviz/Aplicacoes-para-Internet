@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <meta charset="UTF-8">
+    <title>Aula 3 - Exercicio 4</title>
+    <link rel="stylesheet" href="style4.css">
+</head>    
+    <header>
+        <a class="logo" href="#">Logo</a>
+        <div>
+            <ul>
+                <li><a href="exercicio4.html">Home</a></li>
+                <li><a href="receita.html">Receita</a></li>
+                <li><a href="video.html">Vídeo</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </header>  
+    <main class="container">  
+        <div>
+            <p class="title">Restaurante do Seu Zé</p>
+        </div>  
+        <div class="input">
+            <img class="comida" src="../images/comida.png">
+        </div>   
+        <div>
+            <p class="descricao">Prato do dia: Frango a Passarinhp</p>
+        </div> 
+        <div class="input">
+            <img class="comida" src="../images/macarrao.png">
+        </div>   
+        <div>
+            <p class="descricao">Prato do dia: Macarrão Bolonhesa</p>
+        </div> 
+        <div class="input">
+            <img class="comida" src="../images/stro.png">
+        </div>   
+        <div>
+            <p class="descricao">Prato do dia: Strogonoff</p>
+        </div> 
+    </main>
+    <section class="banner"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script> 
+</body>
+</html>

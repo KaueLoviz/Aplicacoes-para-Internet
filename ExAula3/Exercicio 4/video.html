@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <meta charset="UTF-8">
+    <title>Aula 3 - Exercicio 4</title>
+    <link rel="stylesheet" href="style4.css">
+</head>    
+    <header>
+        <a class="logo" href="#">Logo</a>
+        <div>
+            <ul>
+                <li><a href="exercicio4.html">Home</a></li>
+                <li><a href="receita.html">Receita</a></li>
+                <li><a href="video.html">Vídeo</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </header>  
+    <main class="container">  
+        <div>
+            <p class="titulo">Explicação - Frango a Passarinho</p>
+        </div>    
+        <div>
+            <iframe class="yt" width="1280" height="720" src="https://www.youtube.com/embed/SrKn5KagcIs" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </div>      
+    </main>
+    <section class="banner"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script> 
+</body>
+</html>

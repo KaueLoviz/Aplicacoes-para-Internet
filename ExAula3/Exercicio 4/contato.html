@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <meta charset="UTF-8">
+    <title>Aula 3 - Exercicio 4</title>
+    <link rel="stylesheet" href="style4.css">
+</head>    
+    <header>
+        <a class="logo" href="#">Logo</a>
+        <div>
+            <ul>
+                <li><a href="exercicio4.html">Home</a></li>
+                <li><a href="receita.html">Receita</a></li>
+                <li><a href="video.html">Vídeo</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </header> 
+                <form method="get">    
+                    <div class="input-field">
+                        <p class="tituloC" type="text">Dados para Contato</p>
+                        <p class="dados">Nome Completo: 
+                        <input class="input" type="text" name="nome"></input>
+                        </p> 
+                        <p class="dados">E-mail: 
+                        <input class="input" type="email" name="email"></input>
+                        </p>
+                        <p class="msg">Mensagem: 
+                        <input class="input-msg" type="text" name="mensagem"></input>
+                        </p>
+                        <button class="bt"type="submit">Enviar</button>
+                    </div>
+                </form>
+    <section class="banner"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script> 
+</body>
+</html>

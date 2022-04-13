@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #000;
+    min-height: 200vh;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 100000;
+}
+img.comida{
+    width: 500px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 700px;
+}
+p.title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 300px;
+    margin-left: 720px;
+}
+p.titulo{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 160px;
+    margin-left: 600px;
+}
+p.tituloP{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 160px;
+    margin-left: 760px;
+}
+p.tituloC{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 200px;
+    margin-left: 700px;
+}
+p.ingredientes{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 720px;
+}
+p.preparo{
+    font-size: 15px;
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 550px;
+}
+p.descricao{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 800px;
+}
+audio.music{
+    margin-top: 30px;
+    margin-left: 800px;
+}
+iframe.yt{
+    margin-top: 60px;
+    margin-left: 500px;
+    width: 1000px;
+    height: 500px;
+}
+p.dados{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    margin-left: 700px;
+}
+p.msg{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    margin-left: 700px;
+}
+input.input{
+    margin-left: 10px;
+}
+input.input-msg{
+    width: 200px;
+    height: 80px;
+    margin-left: 10px;
+}
+button.bt{
+    margin-top: 40px;
+    margin-left: 820px;
+    width: 65px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+}
+.bt:hover {
+    background: rgba(223, 52, 0, 0.586);
+    background: linear-gradient(90deg, rgba(194, 37, 32, 0.84) 35%);
+}
+header.sticky{
+    padding: 20px 150px;
+    background:  rgb(195, 82, 41);
+}
+header .logo{
+    position: relative;
+    font-size: 2rem;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: 0.6s;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+   position: relative;
+   margin: 0 15px;
+   text-decoration: none;
+   color: #fff;
+   letter-spacing: 2px;
+   font-weight: bold;
+   transition: 0.6s;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://data.1freewallpapers.com/download/moon-full-moon-eclipse-red-moon-1920x1080.jpg");
+    background-size: cover;
+}
+header.sticky .logo,
+header.sticky ul li a{
+    color: #000;
+}
