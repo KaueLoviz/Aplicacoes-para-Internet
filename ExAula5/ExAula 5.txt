@@ -1,4 +1,0 @@
-nome: Kauê Loviz de Oliveira
-RGM: 30650615
-
-Segue em anexo o Exercicio da Aula 5 - Realizei utilizando o servidor xampp para melhor usuabilidade durante a programação.
